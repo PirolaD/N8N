@@ -11,8 +11,8 @@ services:
   # A web service on the Ruby native runtime
   - type: web
     runtime: ruby
-    name: sinatra-app
-    repo: https://github.com/render-examples/sinatra # Default: Repo containing render.yaml
+    name: danielp-app
+    repo: https://github.com/danielp/N8N/src # Default: Repo containing render.yaml
     numInstances: 3 # Manual scaling configuration. Default: 1 for new services
     region: frankfurt # Default: oregon
     plan: standard # Default: starter
